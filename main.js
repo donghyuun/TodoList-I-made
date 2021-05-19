@@ -28,7 +28,7 @@ function showList() {
   }
   let newLiTag = "";
   listArray.forEach((item, index) => {
-    newLiTag += `<li>${item}, ${index}<i class="fas fa-trash" onclick="deleteList(${index})";></i></li>`
+    newLiTag += `<li>${item}, ${index}<span class="deleteButton"><i class="fas fa-trash" onclick="deleteList(${index})";></i></span></li>`
   })
   todoList.innerHTML = newLiTag;
 }
@@ -44,3 +44,5 @@ function deleteList(index) {
   localStorage.setItem("todoList", JSON.stringify(listArray));
   showList();
 }
+
+
