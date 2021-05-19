@@ -1,0 +1,36 @@
+*{
+  font-family: 'Roboto', sans-serif;
+  margin:0;
+  padding:0;
+}
+
+.header{
+  color:#497be8;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.input-button{
+  color:#497be8;
+  border:none;
+}
+.input-field{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.wrapper{
+  margin: 120px auto;
+  width:100%;
+}
+.todoList{
+  margin-top:2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.todoList .list{
+  list-style-type:none;
+}
